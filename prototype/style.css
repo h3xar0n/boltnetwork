@@ -1,0 +1,31 @@
+html, body {
+  font-family: "Oxygen", sans-serif; 
+  font-weight: 300; 
+  margin: 0;
+  padding: 0;
+}
+
+.header li {
+  display: inline;
+}
+.container {
+  max-width: 970px;
+  margin-right: 30px;
+}
+
+.supporting {
+  background-image: url(s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
+  background-size: 141px 142px;
+}
+
+.jumbotron .btn {
+    color: #0393ff;
+    background: transparent;
+    border: 1px solid #0393ff;
+    border-radius: 2px;
+    padding: 8px 20px;
+}
+
+.feature {
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg");
+}
